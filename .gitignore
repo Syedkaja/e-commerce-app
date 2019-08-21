@@ -1,0 +1,49 @@
+venv/
+env/
+.vscode/
+*.pyc
+*.pyo
+ref.jpg
+baseurl.json
+
+# compiled output
+static/dist
+static/tmp
+static/out-tsc
+
+# dependencies
+static/node_modules
+yarn.lock
+package-lock.json
+
+#IDEs
+static/.editorconfig
+static/.vscode/*
+static/!.vscode/settings.json
+static/!.vscode/tasks.json
+static/!.vscode/launch.json
+static/!.vscode/extensions.json
+.idea/
+
+#Dependencies
+static/node_modules
+static/yarn.lock
+static/yarn-error.log
+
+# misc
+static/.sass-cache
+static/connect.lock
+static/coverage
+static/libpeerconnection.log
+static/npm-debug.log
+static/testem.log
+static/typings
+
+# e2e
+static/e2e/*.js
+static/e2e/*.map
+static/e2e/*.*
+
+# System Files
+static/.DS_Store
+static/Thumbs.db
